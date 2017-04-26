@@ -1,6 +1,6 @@
 # npmtest-jump.js
 
-#### test coverage for  [jump.js (v1.0.2)](https://github.com/callmecavs/jump.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jump.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jump.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jump.js.svg)](https://travis-ci.org/npmtest/node-npmtest-jump.js)
+#### basic test coverage for  [jump.js (v1.0.2)](https://github.com/callmecavs/jump.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-jump.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-jump.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-jump.js.svg)](https://travis-ci.org/npmtest/node-npmtest-jump.js)
 
 #### A modern smooth scrolling library.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-jump.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-jump.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-jump.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-jump.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jump.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jump.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-jump.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-jump.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-jump.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-jump.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-jump.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-jump.js/build/coverage.html/index.html)
 
@@ -91,7 +91,8 @@
         "prepublish": "npm run build",
         "server": "python -m SimpleHTTPServer 3000"
     },
-    "version": "1.0.2"
+    "version": "1.0.2",
+    "bin": {}
 }
 ```
 
